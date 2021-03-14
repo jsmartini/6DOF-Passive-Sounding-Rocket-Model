@@ -1,0 +1,27 @@
+thrust:
+  thrust_curve_data_csv: ""
+properties:
+  mass: 200
+  center_of_mass_initial: 0
+  Ixx: 1.5
+  Iyy: 1.5
+  Izz: 3.2
+  I: [1.5, 1.5, 3.2]
+  Cda: 0
+  Ca: [0,1,2]  #R, alpha, M    COE axial aerodynamic force
+  Cn: [0,1,2]  #...            COE normal force
+  Cr: [0,1,2]  #...            COE aerodynamic roll torque
+  Xcp: 0  # distance from nose to center of pressure
+  Xrb: 0  #rocket body length
+  Arb: 0  #max rocket body cross-sectional area
+  Xf:  0  #distance from plane of fin's cetner from nose tip
+  nu:  0  #fin cant angle
+  rf:  0  # roll moment arm
+  YA0:  [1,0,0]
+  RA0:  [0,1,0]
+  PA0:  [0,0,1]
+  Emass: 5.972E24
+  ER: 6357
+  rho: 0.09
+  Xcm: 0
+
